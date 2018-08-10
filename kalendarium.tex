@@ -1,0 +1,103 @@
+\subsection{Kalendarium}
+
+\begin{itemize}
+  \item 1995
+  \begin{itemize}
+    \item Początkowe dyskusje na temat trasowania cebulowego przez ONR.
+  \end{itemize}
+  
+  \item 1996
+  \begin{itemize}
+   \item Pojawienie się idei użycia kluczy DH zamiast kluczy cebulowych. Zapewniałyby one bezpieczeństwo na odpowiednim poziomie, lecz użycie kluczy cebulowych było efektywniejsze.
+   \item 31 Maja: Pojawienie się pierwszej formalnej publikacji i~prezentacji trasowania cebulowego "Hiding Routing Information"\footnote{https://www.onion-router.net/Publications.html\#or-infohiding} na "First Hiding Workshop". W dokumencie znajdowały się m.in. funkcje, które zostały zaimplementowane w~2. generacji, np. punkty spoktania, czy oznaczanie ataków.
+   \item Wydanie prototypu na maszynie z systemem Solaris 2.5.1/2.6. Składał się on z~5 węzłów działających na jednej maszynie znajdującej się w~NRL.
+   \begin{itemize}
+    \item Działający proxy dla HTTP i TELNET
+    \item Trwają prace nad proxy dla protokołów SMTP, oraz FTP
+   \end{itemize}
+
+   \item Rozpoczęcie prac nad generacją 1. 
+   \item Lipiec: zatwierdzenie kodu 1. generacji trasowania cebulowego istniejącego już w~Maju do publicznego rozowszechnienia.
+  \end{itemize}
+  
+  \item 1997
+  \begin{itemize}
+   \item Aspekty niezowodności Trasowania Cebulowego są finansowane przez DARPA w ramach High Confidence Networks Program.
+   \item Projekt użycia Trasowania Cebulowego do ukrytego użycia lokalizacji telefonów komórkowych i prywatnej kontroli informacji o lokalizacji w urządzeniach śledzących lokalizację został opublikowany w Security Protocols Workshop w kwietniu.
+   \item Przykłady ukrytego serwisu, oraz punktów spotkania.
+   \item Slajdy ilustrujące chat IRC: \\https://www.onion-router.net/Publications.html\#old-slides
+   \item Opublikowanie większości projektu na IEEE Symposium on Security and Privacy.
+   \begin{itemize}
+    \item Trasy o zmiennej długości (generacja 0 posiadała zdolonść do tracenia warstw przez węzły pośredniczące w sytuacji, kiedy nie było bezpośredniego połączenia z kolejnym węzłem).
+    \item Separacja proxy od routera (klient nie musi ufać zdalemu proxy z trasą). 
+    \item Wprowadzenie zasad wyjścia.
+    \item Odseparowanie modułu kryptograficznego, zdolnego od działania na oddzielnej maszynie lub na specjalistycznym sprzęcie.
+    \item Odseparowane silniki bazy danych, bez centralnego punktu awarii.
+    \item ...
+   \end{itemize}
+  \end{itemize}
+  
+  \item 1998
+  \begin{itemize}
+   \item Utworzenie kilku rozproszonych sieci generacji 0/1 składających się z 13 węzłów na NRL, NRAD i UMD.
+   \item Zbudowanie przekierowywania NRAD, działającego na Windowsie NT, przekierowującego cały ruch TCP na sieć Trasowania Cebulowego bez potrzeby użycia specjalnych proxy (wymaga użycia działającej lokalnie modyfikacji jądra).
+   \item Zbudowanie proxy dla HTTP, FTP, SMTP i rlogin.
+   \item Maksymalne użycie prototypu generacji 0 zostało odnotowane na lokalnym stanowisku testowym w NRL. \\Średnio wystąpiło ponad 50000 odwiedzin dziennie podczas ostatnich miesięcy, a ponad 1 milion połączeń miesięcznie.
+    \item 12 grudnia: Szczytowe obciążenie wyniosło 84022 połączeń.
+    \item Pod koniec roku Zero Knowledge Systems ogłosiło Freedom Network podobną do Trasowania Cebulowego. Różniła się ona tym, że działała z wykorzystaniem protokołu UDP, zamiast TCP, a z sieci mogli korzystać tylko użytkownicy płacący za subskrybcję. Węzły były utrzymywane komercyjnie, a nie przez ochotników tak jak w Trasowaniu Cebulowym. Freedom Network działało od końca 1999 do końca 2001 roku. Została ona zamknięta ze względu na zbyt małą popularność, która pozwoliłaby pokryć koszty działania sieci.
+   \end{itemize}
+   
+  \item 1999
+  \begin{itemize}
+   \item Otrzymanie nagrody Alan Berman Research Publication Award przez "Anonymous Connection and Onion Routing"\footnote{https://www.onion-router.net/Publications.html\#JSAC-1998}, zawierającego szczegółowe specyfikacje Trasowania Cebulowego generacji 1.
+   \item Prace nad rozwojem Trasowania Cebulowego zostają wstrzymane. \\Brak wsparcia finansowego, dyrektorzy i wydawcy opuszczają NRL, prace badawcze i analityczne nadal trwają.
+  \end{itemize}
+  
+  \item 2000
+  \begin{itemize}
+   \item Styczeń: Zamknięcie prototypowej sieci generacji 0. Składała się ona z pięciu routerów cebulowych działających na maszynie Sun Ultra 2 2170, posiadającej dwa procesory o taktowaniu 167 MHz i 256MB pamięci. Przez dwa lata działania, zostało przetworzonych ponad 20 mln żądań z ponad 60 krajów. W ostatnim roku zanotowano średnio ponad 50 tys. odwiedzin dzienni. 12 grudnia 1998 roku zanotowano 84022 połączeń.
+  \end{itemize}
+  
+  \item 2001
+  \begin{itemize}
+   \item Wznowiono prace nad Trasowaniem Cebulowym.
+   \item Trasowanie Cebulowe jest finansowane przez DARPA w ramach programu Fault Tolerant Networks Program.
+   \item Trasowanie Cebulowe generacji 1 ma zostać dokończone na tyle, aby uruchomić sieć w wersji beta, poza tym ma zostać dodana odporność na uszkodzenia, oraz zarządzanie zasobami.
+   \item Trasowanie Cebulowe zostało nagrodzone nagrodą Edison Invention Award.
+  \end{itemize}
+  
+  \item 2002
+  \begin{itemize}
+   \item Porzucenie kodu generacji 1, ze względu na przestarzałość.
+   \item Rozpoczęcie prac nad generacją 2 Trasowania Cebulowego (Tor), na bazie kodu Mateja Pfajfara. Do 2004 roku żadna część tego kodu nie pozostała w Tor.
+   \item Powody rozpoczęcia pisania Trasowania Cebulowego od nowa.
+   \begin{enumerate}
+    \item Wielu innych osób pracowało nad swobodnie dostępnymi filtrującymi proxy, a więc nie potrzeba tworzyć własnych w celu filtrowania strumienia danych. Zamiast tego wykorzystano Privoxy.
+    \item Wraz ze wzrostem popularności zapór ogniowych, protokół SOCKS stał się na tyle wszechobecny, że prawie wszystkie aplikacje na których nam zależało stały się z nim kompatybilne. Nie trzeba pisać proxy dla każde z aplikacji.
+    \item Ograniczenia eksportu dotyczące kryptografii nie są już problemem.
+   \end{enumerate}
+  \end{itemize}
+  
+  \item 2003
+  \begin{itemize}
+   \item Finansowanie Tor przez ONR (rozwój i wdrożenie), DARPA (zarządzanie zasobami i odporność na awarie), oraz wewnętrze fianasowanie NRL przez ONR (ukryte serwisy zdolne do przetrwania).
+   \item Październik: wdrożenie i wydanie sieci Tor pod wolną i otwartą licencją MIT.
+   \item Do końca 2003 roku sieć Tor miała około tuzina ochotniczych węzłów, większość w USA, oraz jeden w Niemczech.
+  \end{itemize}
+
+  \item 2004
+  \begin{itemize}
+   \item Wiosna: wydanie ukrytych serwisów, zbudowanie ukrytej wiki.
+   \item Q4: Zakończenie finansowania przez ONR i DARPA. 
+   \item Rozpoczęcie finansowania Tor przez EFF (wdrażanie i rozwój).
+   \item Wewnętrzne finansowane NRL (przez ONR) ukrytych serwisów nadal trwa.
+   \item Statystyki: 
+   \begin{itemize}
+    \item Koniec 2004 roku: Ponad 100 węzłów na trzech kontynentach.
+    \item Połowa 2005 roku: Ponad 160 węzłów na pięciu kontynentach.
+   \end{itemize}
+  \end{itemize}
+
+  \item 2006
+  \item ...
+\end{itemize}
