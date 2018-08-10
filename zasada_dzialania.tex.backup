@@ -1,0 +1,127 @@
+\section{Zasada działania}
+
+\subsection{Tor: The Second-Generation Onion Router\protect\footnote{https://svn.torproject.org/svn/projects/design-paper/tor-design.html}}
+\begin{itemize}
+  \item Streszczenie
+  \begin{itemize}
+   \item Nie wymaga modyfikacji jądra
+   \item Nie wymaga specjalnych uprawnień
+   \item Zapewnia kompromis pomiędzy zachowaniem anonimowości, użytecznością, oraz wydajnością
+   \item Działa "w~prawdziwym Internecie"
+  \end{itemize}
+
+  \item Przegląd (zmiany od generecji 1)
+  \begin{itemize}
+   \item Tor to nakładka na sieć, która powstała w~celu anonimizacji aplikacji opartych na protokole TCP (przeglądanie sieci, ssh, wiadomości)
+   \item Klient wybiera losowe przekaźniki w~sieci, które przekierowują ruch.
+   \item Każdy przekaźnik zna tylko swojego poprzednika, oraz następnika (nie można określić całej ścieżki pakietu, nadawcy i~odbiorcy)
+   \item Pakiet jest przesyłany w~komórkach o~stałej wielkości, które są rozpakowywane w~kolejnych węzłach (podobnie jak cebula, stąd trasowanie cebulowe), i~przesyłane dalej
+   \item "Perfect forward secrecy"
+   \begin{itemize}
+    \item Inicjator negocjuje klucz sesji z~każdym sukcesywnym skokiem w~obwodzie, zamiast przesyłać wielokrotnie zaszyfrowaną wiadomość
+    \item Nie potrzebna jest detekcja rejestracji ruchu
+    \item Bardziej niezawodne tworzenie obwodów (inicjator wie kiedy skok zawodzi i~może rozszerzyć do nowego węzła
+   \end{itemize}
+   \item Separacja "czyszczenia protokołu" od anonimowości
+   \begin{itemize}
+    \item Tor używa protokołu SOCKS jako proxy na poziomie aplikacji, który wspiera większość aplikacji opartych na protokole TCP
+    \item Opiera się na funkcjach serwerów proxy działających na poziomie aplikacji, pozwalacjących zwiększyć prywatność, takich jak Privoxy\footnote{napisac cos o Privoxy}
+   \end{itemize}
+   \item Możliwość udostępnienia wielu strumieni TCP, poprzez jeden zbudowany obwód (nie potrzeba negocjować wielu kluczy publicznych dla każdego połączenia, co daje większą efektywność i~bezpieczeństwo)
+   \item Sprawdzanie integralności przesyłanych danych
+   \item Punkty spotkania i~ukryte serwisy
+  \end{itemize}
+  \item Zasada działania
+  \begin{itemize}
+   \item Tor jest nakładką na sieć
+   \item Każdy router cebulowy (ang. onion router (OR)) działa jako naromalny proces w~przestrzeni użytkownika, bez żadnych specjalnych uprawnień
+   \item Każdy router cebulowy utrzymuje połączenie TLS z~każdym innym routerem cebulowym, z~użyciem kluczy emeferycznych\footnote{Co to są klucze emeferyczne?}
+   \item Każdy użytkownik ma uruchomione lokalne oprogramowanie nazywane cebulowym proxy (ang. onion proxy (OP)), które pobiera katalogi, tworzy obwody, oraz utrzymuje połączenia od aplikacji użytkownika
+   \item Każdy OR utrzymuje dwa klucze
+   \begin{itemize}
+    \item Długoterminowy klucz tożsamościowy
+    \begin{itemize}
+     \item Podpisywanie certyfikatów TLS
+     \item Podpisywanie opisu routera OR (podsumowanie o~jego kluczach, adresach, przepustowości, polityce wyjścia, itd.)
+     \item Podpisywanie katalogów (przez serwery katalogowe
+    \end{itemize}
+
+    \item Krótkoterminowy klucz cebluowy
+    \begin{itemize}
+     \item Używany do odszyfrowania zapytać użytkowników, aby skonfigurować obwód i wynegocjować klucze emfiryczne
+    \end{itemize}
+    \item Protokół TLS ustanawia krótkoterminowy klucz łącza podczas komunikacji pomiędzy OR.
+    \item Krótkoterminowe klucze są okresowo i niezależnie rotowane w celu ograniczenia wpływu na ujawnienie klucza
+
+   \end{itemize}
+   \item Komórki
+   \begin{itemize}
+    \item Są jednostkami komunikacji w~sieci Tor
+    \item Rozmiar komórki: 512 bajtów
+    \item Składa się z~nagłówka, oraz treści
+    \item Nagłówek
+    \begin{itemize}
+     \item CircID (2 bajty) określa do którego obwodu odnosi się komórka (wiele obwodów może być zmultipleksowanych w~jednym połączeniu TLS)
+     \item Komenda/typ komórki (1 bajt) opisuje co należy zrobić z~treścią komórki
+     \begin{itemize}
+      \item Komórki kontrolne są interpretowane przez węzeł
+      \begin{itemize}
+       \item padding - używane do utrzymywania połączeń
+       \item create - używane do ustanawiania nowych obwodów
+       \item destroy - używane do niszczenia obwodów
+      \end{itemize}
+
+      \item Komórki przekaźnikowe przenoszą dane z~jednego do drugiego końca strumienia
+
+     \end{itemize}
+
+    \end{itemize}
+
+   \end{itemize}
+
+  \end{itemize}
+
+\end{itemize}
+
+
+\begin{itemize}
+ \item Ogólna zasada działania + odnośniki do obrazków
+ \item Używane protokoły
+ \begin{itemize}
+  \item Warstwy transportowej (TCP, czy UDP)
+  \item Warstwy aplikacji (SOCKS)
+  \item 
+ \end{itemize}
+ \item serwery filtrujące (Privoxy)
+ \item serwery pośredniczące
+ \item algorytm szyfrujący
+ \item długość kluczy szyfrujących
+ \item obrazki ilustrujące zasadę działania
+\end{itemize}
+
+\subsection{Ukryte serwisy}
+\begin{itemize}
+ \item Nie potrzeba używać firewalla
+ \item Specjalna pseudodomena .onion
+ \item Losowo wygenerowane adresy serwisów
+\end{itemize}
+
+\subsection{Użycie sieci Tor na systemie Linux i/lub Windows}
+\begin{itemize}
+ \item Kolejne kroki + output z terminala
+ \item Dowód działania
+\end{itemize}
+
+\subsection{Utworzenie ukrytego serwisu w systemie Linux}
+\begin{itemize}
+ \item Kolejne kroki + output z terminala
+ \item Dowód działania
+\end{itemize}
+
+\subsection{Przyłączenie się do serwerów pośredniczących}
+\begin{itemize}
+ \item Kolejne kroki + output z terminala
+ \item Dowód działania
+\end{itemize}
+
+\subsection{Trasowanie Cebulowe}

@@ -1,0 +1,74 @@
+\section{Wstęp}
+
+\begin{itemize}
+ \item Problem
+ \begin{itemize}
+  \item Analiza ruchu sieciowego
+  \begin{itemize}
+   \item Inofrmacje o trasowaniu, a~w~szczególności adresy sieciowe, dwóch komunikujących się ze sobą urządzeń są zawsze widoczne. Nawet jeśli treść pakietu jest zaszyfrowana, to nagłówek musi być wioczny.
+   \item Przykłady (tcpdump, wireshark)
+  \end{itemize}
+
+ \end{itemize}
+
+ \item Rozwiązanie problemu
+ \item Cechy trasowania cebulowego
+ \begin{itemize}
+  \item Zapobiega analizie ruchu sieciowego
+  \item Zapewnia anonimową, dwukierunkową komunikację, dla protokołów, które mogą używać serwisów proxy
+  \item Twórcy: David M. Goldschlag, Michael G. Reed, Paul F. Syverson
+  \item Używa serwerów proxy
+  \item Ukrywa informacje o trasowaniu (routingu)
+ \end{itemize}
+
+ \item Opis poszczególnych rozdziałów
+\end{itemize}
+
+\subsection{Problem}
+Obecnie korzystając z~Internetu, każde nasze połączenie może zostać śledzone.\foonote{Analiza ruchu sieciowego}
+
+\subsection{Czym jest siec Tor?\protect\footnote{https://www.torproject.org/about/overview.html.en}}
+\begin{itemize}
+ \item Składa się z "ochotniczych" serwerów
+ \item Użytkownik tworząc połączenie z~pewnym hostem, nawiązuje połączenia z~wieloma wirtualnymi tunelami\footnote{Czemu wirtualnymi?}, zamiast łączyć się bezpośrednio
+ \item Pozwala na obejście cenzury, pozwalając użytkownikom na połączenie się z~blokowanym celem, lub zawartością
+ \item Pozwala tworzyć serwisy Internetowe bez potrzeby ujawniania własnej lokalizacji
+ \item Zapobiega analizie ruchu sieciowego
+ \item Pozwala dziennikarzom na bezpieczną komunikację z~informatorami, oraz dysydentami
+ \item Pracownicy mogą łączyć się bezpiecznie z~miejscem pracy
+ \item Ograny ścigania używają sieci Tor do odwiedzania lub nadzoru stron sieciowych bez pozostawiania rządowego adresu IP w~logach siecowych, oraz w~celach bezpieczeństwa
+ \item Im więcej osób używa sieci Tor, tym jest ona bezpieczniejsza\footnote{https://www.freehaven.net/doc/fc03/econymics.pdf}
+\end{itemize}
+
+\subsection{Analiza ruchu sieciowego\footnote{https://www.torproject.org/about/overview.html.en}}
+\begin{itemize}
+ \item Jest używana do określenia kto z~kim się komunikuje
+ \item Przykłady skutków bycia ofiarą analizy ruchu sieciowego
+ \begin{itemize}
+  \item Może mieć wpływ na książeczkę czekową, jeśli witryna e-commerence używa dyskryminacji cenowej na tle państwowym, lub pochodzenia instytucji
+  \item Ma wpływ na twoją pracę i~fizyczne bezpieczeństwo (ujawniając kim i~gdzie jesteś)
+ \end{itemize}
+ \item Jak działa analiza ruchu sieciowego?
+ \begin{itemize}
+  \item Przesyłany w~Internecie pakiet posiada nagłówek, oraz dane. Nagłówek nie jest zaszyfrowany, a~co za tym idzie widoczne są m.in.: adres źródłowy, adres docelowy, rozmiar pakietu, czas, itp.
+  \item Inne sposoby analizy ruchu sieciowego...
+ \end{itemize}
+\end{itemize}
+
+\subsection{Działanie - opis}
+\begin{itemize}
+ \item Rozkłada ruch pomiędzy przekaźniki
+ \item Każdy przekaźnik zna tylko adres poprzedniego przekaźnika i~adres kolejnego przekaźnika
+ \item Działa tylko dla protokołu TCP i~dla aplikacji wspieracjących SOCKS
+ \item W~celu zwiększenia efektywności bezpieczeństwa raz na dziesięć minut tworzone jest nowe połączenie
+ \item Nie ukrywa inforamcji o~konfiguracji komputera (do tego celu można użyć Tor Browser)
+ 
+\end{itemize}
+
+Jak opisać problem anonimowości (analizy ruchu sieciowego), wolności słowa, cenzury, prywatności?
+\begin{itemize}
+ \item 
+\end{itemize}
+
+
+Jednym z~ataków na jakie można się natknąć podczas używania Inernetu jest analiza ruchu sieciowego. Proces ten polega na śledzeniu pakietów i~analizowaniu ich zawartości. Dzięki temu napastnik jest w~stanie określić lokalizację, a~nawet tożsamość komunikujących się ze sobą stron.
