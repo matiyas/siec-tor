@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  10 AUG 2018 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  11 AUG 2018 18:46
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -510,21 +511,21 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 (./zasada_dzialania.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -621,46 +622,46 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 30
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 30
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 30
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 30
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -700,35 +701,60 @@ Package pdftex.def Info: ./images/Daily.jpg used on input line 30.
 
 
 (./zasada_dzialania.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
+Overfull \hbox (0.12283pt too wide) in paragraph at lines 9--10
+[]\T1/ptm/m/n/12 Zapewnia kom-pro-mis po-mi¦-dzy za-cho-wa-niem ano-ni-mo-wo-±c
+i, u»y-tecz-no-±ci¡, oraz
+ []
+
+[9
+
+
+] [10] <./images/cell-struct.png, id=37, 381.22424pt x 109.30838pt>
+File: ./images/cell-struct.png Graphic file (type png)
+
+<use ./images/cell-struct.png>
+Package pdftex.def Info: ./images/cell-struct.png used on input line 65.
+(pdftex.def)             Requested size: 426.79135pt x 122.3745pt.
+ [11 <./images/cell-struct.png (PNG copy)>]
+Overfull \hbox (1.49358pt too wide) in paragraph at lines 105--106
+\T1/ptm/m/n/12 szy-fro-wy-wa-ne ra-zem w trak-cie prze-ka-zy-wa-nia w ob-wo-dzi
+e, przy u»y-
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [9
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
 
+<interaction.png, id=41, 675.7245pt x 353.21962pt>
+File: interaction.png Graphic file (type png)
+ <use interaction.png>
+Package pdftex.def Info: interaction.png used on input line 124.
+(pdftex.def)             Requested size: 426.79135pt x 223.09544pt.
 
-] [10] [11])
-[12] (./main.aux (./historia.aux) (./zasada_dzialania.aux)) ) 
+[12] [13 <./interaction.png (PNG copy)>] [14]) [15] (./main.aux (./historia.aux
+) (./zasada_dzialania.aux)) ) 
 Here is how much of TeX's memory you used:
- 3100 strings out of 494918
- 40931 string characters out of 6180101
- 104217 words of memory out of 5000000
- 6293 multiletter control sequences out of 15000+600000
- 58951 words of font info for 93 fonts, out of 8000000 for 9000
+ 3123 strings out of 494918
+ 41201 string characters out of 6180101
+ 104219 words of memory out of 5000000
+ 6300 multiletter control sequences out of 15000+600000
+ 67359 words of font info for 107 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 37i,8n,25p,2340b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb>
-Output written on main.pdf (12 pages, 240586 bytes).
+ 37i,8n,25p,2340b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 293852 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

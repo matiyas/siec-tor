@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  6 AUG 2018 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  11 AUG 2018 18:45
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**historia.tex
+**historia.tex kalendarium.tex konkurencja.tex main.tex wstep.tex zasada_dziala
+nia.tex
 (./historia.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
-! Undefined control sequence.
+./historia.tex:1: Undefined control sequence.
 l.1 \section
             {Historia sieci Tor}
 The control sequence at the end of the top line
@@ -16,7 +18,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:1: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -245,15 +247,14 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no . in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-! Undefined control sequence.
+./historia.tex:2: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.2 ...{https://www.onion-router.net/History.html}
+l.2 ....onion-router.net/History.html\label{hist}}
                                                   \footnote{J. B. Fagoyinbo,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -261,10 +262,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:2: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.2 ...{https://www.onion-router.net/History.html}
+l.2 ....onion-router.net/History.html\label{hist}}
                                                   \footnote{J. B. Fagoyinbo,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -279,25 +280,25 @@ Overfull \hbox (87.00018pt too wide) in paragraph at lines 2--2
 
 
 Overfull \hbox (102.9169pt too wide) in paragraph at lines 2--2
-\OT1/cmr/m/n/10 router.net/History.html| 
+\OT1/cmr/m/n/10 router.net/History.html[]| 
  []
 
-! Undefined control sequence.
+./historia.tex:2: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.2 ...t and Prosperity, Bloomington 2013, s. 262}
-                                                  
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:2: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.2 ...t and Prosperity, Bloomington 2013, s. 262}
-                                                  
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -439,6 +440,7 @@ Overfull \hbox (15.00005pt too wide) in paragraph at lines 2--2
 \OT1/cmr/m/n/10 262| 
  []
 
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
 []
@@ -450,7 +452,7 @@ Overfull \hbox (8.97226pt too wide) in paragraph at lines 1--3
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:4: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1087,34 +1089,33 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:4: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.4 ...otnote{\url{https://www.onion-router.net/}}
-                                                  
+l.4 .../www.onion-router.net/}\label{onionrouter}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:4: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.4 ...otnote{\url{https://www.onion-router.net/}}
-                                                  
+l.4 .../www.onion-router.net/}\label{onionrouter}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:4: Undefined control sequence.
 <argument> \url 
-                {https://www.onion-router.net/}
-l.4 ...otnote{\url{https://www.onion-router.net/}}
-                                                  
+                {https://www.onion-router.net/}\label {onionrouter}
+l.4 .../www.onion-router.net/}\label{onionrouter}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1128,9 +1129,10 @@ Overfull \hbox (87.00018pt too wide) in paragraph at lines 4--4
 
 
 Overfull \hbox (48.38899pt too wide) in paragraph at lines 4--4
-\OT1/cmr/m/n/10 router.net/| 
+\OT1/cmr/m/n/10 router.net/[]| 
  []
 
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
 []
@@ -1142,7 +1144,7 @@ Overfull \hbox (4.48613pt too wide) in paragraph at lines 4--5
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:6: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1254,23 +1256,22 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:6: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.6 ...org/press/2008-12-19-roadmap-press-release}
-                                                  
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:6: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.6 ...org/press/2008-12-19-roadmap-press-release}
-                                                  
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1307,6 +1308,7 @@ Overfull \hbox (28.97224pt too wide) in paragraph at lines 6--6
 \OT1/cmr/m/n/10 release| 
  []
 
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 6--7
 []
@@ -1317,7 +1319,7 @@ Overfull \hbox (4.48613pt too wide) in paragraph at lines 6--7
 [] 
  []
 
-! Undefined control sequence.
+./historia.tex:8: Undefined control sequence.
 l.8 \subsection
                {Generacja 0}
 The control sequence at the end of the top line
@@ -1327,7 +1329,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:8: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1585,51 +1587,33 @@ Missing character: There is no O in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no ) in font nullfont!
+./historia.tex:9: Undefined control sequence.
+<write> ...ing: Reference `hist' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 ... Wojennej (ONR)\textsuperscript{\ref{hist}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `hist' on page  undefined on input line 9.
+
 Missing character: There is no . in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.9 ....onion-router.net/History.html\label{hist}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.9 ....onion-router.net/History.html\label{hist}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 9--9
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (102.9169pt too wide) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 router.net/History.html[]| 
- []
-
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 8--10
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 8--10
-[] 
+Overfull \hbox (9.06384pt too wide) in paragraph at lines 8--10
+[]$ 
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:11: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2167,23 +2151,22 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:11: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.11 ...onion-router.net/Publications/IH-1996.pdf}
-                                                  
+l.11 ...r.net/Publications/IH-1996.pdf\label{hri}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:11: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.11 ...onion-router.net/Publications/IH-1996.pdf}
-                                                  
+l.11 ...r.net/Publications/IH-1996.pdf\label{hri}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2202,9 +2185,10 @@ Overfull \hbox (121.91693pt too wide) in paragraph at lines 11--11
 
 
 Overfull \hbox (37.22235pt too wide) in paragraph at lines 11--11
-\OT1/cmr/m/n/10 1996.pdf| 
+\OT1/cmr/m/n/10 1996.pdf[]| 
  []
 
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
 []
@@ -2216,7 +2200,7 @@ Overfull \hbox (4.48613pt too wide) in paragraph at lines 11--12
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:13: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2421,12 +2405,11 @@ Missing character: There is no N in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:13: Undefined control sequence.
 <write> ...ing: Reference `hist' on page \thepage 
                                                   \space undefined\on@line .
-l.13 ...orskich (NRL).\textsuperscript{\ref{hist}}
-                                                   Działająca wersja posia...
+l.13 ...Morskich (NRL)\textsuperscript{\ref{hist}}
+                                                  . Działająca wersja posi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2436,6 +2419,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `hist' on page  undefined on input line 13.
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2581,57 +2565,34 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no P in font nullfont!
+./historia.tex:13: Undefined control sequence.
+<write> ...ning: Reference `hri' on page \thepage 
+                                                  \space undefined\on@line .
+l.13 ...�ami FTP i~SMTP\textsuperscript{\ref{hri}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `hri' on page  undefined on input line 13.
+
 Missing character: There is no . in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.13 ...onion-router.net/Publications/IH-1996.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.13 ...onion-router.net/Publications/IH-1996.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 13--13
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (121.91693pt too wide) in paragraph at lines 13--13
-\OT1/cmr/m/n/10 router.net/Publications/IH-
- []
-
-
-Overfull \hbox (37.22235pt too wide) in paragraph at lines 13--13
-\OT1/cmr/m/n/10 1996.pdf| 
- []
-
 
 Overfull \hbox (29.06384pt too wide) in paragraph at lines 13--14
 []                            $[]$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 13--14
-[] 
+Overfull \hbox (9.06384pt too wide) in paragraph at lines 13--14
+[]$ 
  []
 
-! Undefined control sequence.
+./historia.tex:15: Undefined control sequence.
 l.15 \subsection
-                {Generacja 1\protect\footnote{https://www.onion-router.net/H...
+                {Generacja 1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2639,15 +2600,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:15: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.15 \subsection{G
-                  eneracja 1\protect\footnote{https://www.onion-router.net/H...
-
+                  eneracja 1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2661,38 +2621,6 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no j in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.15 ...https://www.onion-router.net/History.html}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.15 ...https://www.onion-router.net/History.html}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 15--15
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (102.9169pt too wide) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 router.net/History.html| 
- []
-
 Missing character: There is no J in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2834,39 +2762,21 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
+./historia.tex:16: Undefined control sequence.
+<write> ...ference `onionrouter' on page \thepage 
+                                                  \space undefined\on@line .
+l.16 ...System)\textsuperscript{\ref{onionrouter}}
+                                                  . Prace obejmowały m.in. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `onionrouter' on page  undefined on input line 16.
+
 Missing character: There is no . in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.16 ...).\footnote{https://www.onion-router.net/}
-                                                   Prace obejmowały m.in. u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.16 ...).\footnote{https://www.onion-router.net/}
-                                                   Prace obejmowały m.in. u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 16--16
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (48.38899pt too wide) in paragraph at lines 16--16
-\OT1/cmr/m/n/10 router.net/| 
- []
-
 Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -3903,17 +3813,12 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 15--17
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 15--17
-[]
+Overfull \hbox (9.06384pt too wide) in paragraph at lines 15--17
+[]$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 15--17
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:18: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -4404,7 +4309,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:20: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -4646,6 +4551,20 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
+./historia.tex:20: Undefined control sequence.
+<write> ...ing: Reference `hist' on page \thepage 
+                                                  \space undefined\on@line .
+l.20 ...P, oraz rlogin\textsuperscript{\ref{hist}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `hist' on page  undefined on input line 20.
+
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 20--21
@@ -4653,7 +4572,12 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 20--21
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+Overfull \hbox (9.06384pt too wide) in paragraph at lines 20--21
+[]$ 
+ []
+
+
+./historia.tex:22: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5285,7 +5209,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:24: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5580,23 +5504,22 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:24: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.24 ....ciw.edu/news/ahart-receives-berman-award}
-                                                   Mimo to prace nad projekt...
+                                                  . Mimo to prace nad projek...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:24: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.24 ....ciw.edu/news/ahart-receives-berman-award}
-                                                   Mimo to prace nad projekt...
+                                                  . Mimo to prace nad projek...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5623,6 +5546,7 @@ Overfull \hbox (26.13893pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 award| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -5724,12 +5648,12 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.47226pt too wide) in paragraph at lines 24--25
+Overfull \hbox (24.48613pt too wide) in paragraph at lines 24--25
 []                                            []
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:26: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -6055,7 +5979,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
-! Undefined control sequence.
+./historia.tex:26: Undefined control sequence.
 <write> ...ference `rys:dzienny' on page \thepage 
                                                   \space undefined\on@line .
 l.26 ...przedstawiony na rysunku \ref{rys:dzienny}
@@ -6081,7 +6005,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 26--27
  []
 
 
-! LaTeX Error: Environment figure undefined.
+./historia.tex:28: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -6093,7 +6017,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
+./historia.tex:30: Undefined control sequence.
 l.30   \includegraphics
                        [width=\textwidth]{Daily}
 The control sequence at the end of the top line
@@ -6103,7 +6027,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:30: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -6121,7 +6045,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-! Missing number, treated as zero.
+./historia.tex:30: Missing number, treated as zero.
 <to be read again> 
                    ]
 l.30   \includegraphics[width=\textwidth]
@@ -6130,7 +6054,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
+./historia.tex:30: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.30   \includegraphics[width=\textwidth]
@@ -6149,18 +6073,33 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
 
-! LaTeX Error: \caption outside float.
+./historia.tex:31: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.31   \caption
-               {Dzienny przepływ ruchu w~prototypowej sieci w~NRL\protect\f...
+               [Caption for LOF]{Dzienny przepływ ruchu w~prototypowej siec...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no ] in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -6204,40 +6143,9 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no L in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.31 ...//www.onion-router.net/Archives/Daily.gif}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Missing character: There is no . in font nullfont!
 
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.31 ...//www.onion-router.net/Archives/Daily.gif}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 31--31
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (126.94472pt too wide) in paragraph at lines 31--31
-\OT1/cmr/m/n/10 router.net/Archives/Daily.gif| 
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
+./historia.tex:33: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -6249,19 +6157,51 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./historia.tex:34: Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.34 ...//www.onion-router.net/Archives/Daily.gif}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 30--34
+./historia.tex:34: Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.34 ...//www.onion-router.net/Archives/Daily.gif}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (87.00018pt too wide) in paragraph at lines 34--34
+[][]\OT1/cmr/m/n/10 https://www.onion-
+ []
+
+
+Overfull \hbox (126.94472pt too wide) in paragraph at lines 34--34
+\OT1/cmr/m/n/10 router.net/Archives/Daily.gif| 
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 30--35
 []
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:36: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 P
+l.36 P
       o dwuletniej przerwie w~rozwoju ponowiono pracę nad rozwojem Trasowan...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6416,13 +6356,13 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--37
 []
  []
 
-! Undefined control sequence.
-l.37 \subsection
-                {Generacja 2\protect\footnote{https://www.onion-router.net/H...
+./historia.tex:38: Undefined control sequence.
+l.38 \subsection
+                {Generacja 2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6430,15 +6370,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:38: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \subsection{G
-                  eneracja 2\protect\footnote{https://www.onion-router.net/H...
-
+l.38 \subsection{G
+                  eneracja 2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6452,38 +6391,6 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no j in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 2 in font nullfont!
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.37 ...https://www.onion-router.net/History.html}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.37 ...https://www.onion-router.net/History.html}
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (87.00018pt too wide) in paragraph at lines 37--37
-[][]\OT1/cmr/m/n/10 https://www.onion-
- []
-
-
-Overfull \hbox (102.9169pt too wide) in paragraph at lines 37--37
-\OT1/cmr/m/n/10 router.net/History.html| 
- []
-
 Missing character: There is no R in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
@@ -7213,23 +7120,18 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--39
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--40
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 37--39
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:41: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 W
+l.41 W
       ~2003 roku Tor otrzymał wsparcie finansowe od ONR, DARPA i~NRL. Tego ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7606,18 +7508,18 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--42
 []                                                          
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:43: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 R
+l.43 R
       ok później zostały uruchomione pierwsze ukryte serwisy, oraz ukryta...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7917,14 +7819,33 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no F in font nullfont!
+./historia.tex:43: Undefined control sequence.
+<write> ...ing: Reference `hist' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...ozpoczął EFF\textsuperscript{\ref{hist}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `hist' on page  undefined on input line 43.
+
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
 []
  []
 
-! Undefined control sequence.
-l.44 \subsection
+
+Overfull \hbox (9.06384pt too wide) in paragraph at lines 43--44
+[]$ 
+ []
+
+./historia.tex:45: Undefined control sequence.
+l.45 \subsection
                 {Projekt Tor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7933,13 +7854,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: Missing \begin{document}.
+./historia.tex:45: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \subsection{P
+l.45 \subsection{P
                   rojekt Tor}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8150,23 +8071,22 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.45 ...t/findoc/2009-TorProject-Form990andPC.pdf}
-                                                   Początkowo sponsoringiem...
+l.46 ...t/findoc/2009-TorProject-Form990andPC.pdf}
+                                                  . Początkowo sponsoringie...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.45 ...t/findoc/2009-TorProject-Form990andPC.pdf}
-                                                   Początkowo sponsoringiem...
+l.46 ...t/findoc/2009-TorProject-Form990andPC.pdf}
+                                                  . Początkowo sponsoringie...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8174,20 +8094,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (210.13939pt too wide) in paragraph at lines 45--45
+Overfull \hbox (210.13939pt too wide) in paragraph at lines 46--46
 [][]\OT1/cmr/m/n/10 https://www.torproject.org/about/findoc/2009-
  []
 
 
-Overfull \hbox (50.75006pt too wide) in paragraph at lines 45--45
+Overfull \hbox (50.75006pt too wide) in paragraph at lines 46--46
 \OT1/cmr/m/n/10 TorProject-
  []
 
 
-Overfull \hbox (85.3058pt too wide) in paragraph at lines 45--45
+Overfull \hbox (85.3058pt too wide) in paragraph at lines 46--46
 \OT1/cmr/m/n/10 Form990andPC.pdf| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -8399,11 +8320,10 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.45 ...\footnote{\url{https://www.eff.org/about}}
+l.46 ...\footnote{\url{https://www.eff.org/about}}
                                                   \footnote{\url{https://www...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8411,10 +8331,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.45 ...\footnote{\url{https://www.eff.org/about}}
+l.46 ...\footnote{\url{https://www.eff.org/about}}
                                                   \footnote{\url{https://www...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8422,10 +8342,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 <argument> \url 
                 {https://www.eff.org/about}
-l.45 ...\footnote{\url{https://www.eff.org/about}}
+l.46 ...\footnote{\url{https://www.eff.org/about}}
                                                   \footnote{\url{https://www...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8434,37 +8354,37 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (117.02806pt too wide) in paragraph at lines 45--45
+Overfull \hbox (117.02806pt too wide) in paragraph at lines 46--46
 [][]\OT1/cmr/m/n/10 https://www.eff.org/about| 
  []
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.45 .../www.eff.org/press/archives/2004/12/21-0}}
-                                                   Wsparciem finansowym proj...
+l.46 .../www.eff.org/press/archives/2004/12/21-0}}
+                                                  . Wsparciem finansowym pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.45 .../www.eff.org/press/archives/2004/12/21-0}}
-                                                   Wsparciem finansowym proj...
+l.46 .../www.eff.org/press/archives/2004/12/21-0}}
+                                                  . Wsparciem finansowym pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 <argument> \url 
                 {https://www.eff.org/press/archives/2004/12/21-0}
-l.45 .../www.eff.org/press/archives/2004/12/21-0}}
-                                                   Wsparciem finansowym proj...
+l.46 .../www.eff.org/press/archives/2004/12/21-0}}
+                                                  . Wsparciem finansowym pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8472,15 +8392,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (211.69489pt too wide) in paragraph at lines 45--45
+Overfull \hbox (211.69489pt too wide) in paragraph at lines 46--46
 [][]\OT1/cmr/m/n/10 https://www.eff.org/press/archives/2004/12/21-
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 45--45
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 46--46
 \OT1/cmr/m/n/10 0| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -8699,34 +8620,33 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.45 ...ww.torproject.org/about/sponsors.html.en}}
-                                                  
+l.46 ...ww.torproject.org/about/sponsors.html.en}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.45 ...ww.torproject.org/about/sponsors.html.en}}
-                                                  
+l.46 ...ww.torproject.org/about/sponsors.html.en}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:46: Undefined control sequence.
 <argument> \url 
                 {https://www.torproject.org/about/sponsors.html.en}
-l.45 ...ww.torproject.org/about/sponsors.html.en}}
-                                                  
+l.46 ...ww.torproject.org/about/sponsors.html.en}}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8734,82 +8654,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (228.3894pt too wide) in paragraph at lines 45--45
+Overfull \hbox (228.3894pt too wide) in paragraph at lines 46--46
 [][]\OT1/cmr/m/n/10 https://www.torproject.org/about/sponsors.html.en| 
  []
 
+Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--47
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 44--46
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 45--47
 []
  []
 
 
-Overfull \hbox (16.94452pt too wide) in paragraph at lines 44--46
+Overfull \hbox (12.95839pt too wide) in paragraph at lines 45--47
 [][]
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 44--46
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 45--47
 [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
+./historia.tex:48: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-! Undefined control sequence.
-<write> \newlabel{rys:dzienny}{{}{\thepage 
-                                           }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{rys:dzienny}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{hist}{{5}{\thepage 
-                                     }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{hist}{{5}{}}
-]
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 T
+l.48 T
       he Tor Project, oprócz rozwoju Tor, zajmuje się również tworzeniem...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9358,34 +9235,33 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ...rproject.org/projects/torbrowser/design/}}
-                                                   Przeglądarka została pu...
+l.48 ...rproject.org/projects/torbrowser/design/}}
+                                                  . Przeglądarka została p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ...rproject.org/projects/torbrowser/design/}}
-                                                   Przeglądarka została pu...
+l.48 ...rproject.org/projects/torbrowser/design/}}
+                                                  . Przeglądarka została p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 <argument> \url 
                 {https://www.torproject.org/projects/torbrowser/design/}
-l.47 ...rproject.org/projects/torbrowser/design/}}
-                                                   Przeglądarka została pu...
+l.48 ...rproject.org/projects/torbrowser/design/}}
+                                                  . Przeglądarka została p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9393,10 +9269,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (248.75047pt too wide) in paragraph at lines 47--47
+Overfull \hbox (248.75047pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://www.torproject.org/projects/torbrowser/design/| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no z in font nullfont!
@@ -9482,34 +9359,33 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ....torproject.org:80/easy-download.html.en}}
-                                                   Była ona dostępna pod n...
+l.48 ....torproject.org:80/easy-download.html.en}}
+                                                  . Była ona dostępna pod ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ....torproject.org:80/easy-download.html.en}}
-                                                   Była ona dostępna pod n...
+l.48 ....torproject.org:80/easy-download.html.en}}
+                                                  . Była ona dostępna pod ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 <argument> \url 
                 {https://web.archive.org/web/20081029125231/http://www.torpr...
-l.47 ....torproject.org:80/easy-download.html.en}}
-                                                   Była ona dostępna pod n...
+l.48 ....torproject.org:80/easy-download.html.en}}
+                                                  . Była ona dostępna pod ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9517,16 +9393,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (360.52858pt too wide) in paragraph at lines 47--47
+Overfull \hbox (360.52858pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://web.archive.org/web/20081029125231/http://www.torpr
 oject.org:80/easy-
  []
 
 
-Overfull \hbox (77.22241pt too wide) in paragraph at lines 47--47
+Overfull \hbox (77.22241pt too wide) in paragraph at lines 48--48
 \OT1/cmr/m/n/10 download.html.en| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no � in font nullfont!
@@ -9609,34 +9486,33 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ...rproject.org/projects/torbrowser.html.en}}
-                                                   Do innych ważniejszych p...
+l.48 ...rproject.org/projects/torbrowser.html.en}}
+                                                  . Do innych ważniejszych ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ...rproject.org/projects/torbrowser.html.en}}
-                                                   Do innych ważniejszych p...
+l.48 ...rproject.org/projects/torbrowser.html.en}}
+                                                  . Do innych ważniejszych ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 <argument> \url 
                 {https://web.archive.org/web/20140701221249/https://www.torp...
-l.47 ...rproject.org/projects/torbrowser.html.en}}
-                                                   Do innych ważniejszych p...
+l.48 ...rproject.org/projects/torbrowser.html.en}}
+                                                  . Do innych ważniejszych ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9644,11 +9520,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (451.86206pt too wide) in paragraph at lines 47--47
+Overfull \hbox (451.86206pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://web.archive.org/web/20140701221249/https://www.torp
 roject.org/projects/torbrowser.html.en| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -9957,34 +9834,33 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ...https://guardianproject.info/apps/orbot/}}
-                                                   W~2009 roku została wyda...
+l.48 ...https://guardianproject.info/apps/orbot/}}
+                                                  . W~2009 roku została wyd...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ...https://guardianproject.info/apps/orbot/}}
-                                                   W~2009 roku została wyda...
+l.48 ...https://guardianproject.info/apps/orbot/}}
+                                                  . W~2009 roku została wyd...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 <argument> \url 
                 {https://guardianproject.info/apps/orbot/}
-l.47 ...https://guardianproject.info/apps/orbot/}}
-                                                   W~2009 roku została wyda...
+l.48 ...https://guardianproject.info/apps/orbot/}}
+                                                  . W~2009 roku została wyd...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9992,10 +9868,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (182.41714pt too wide) in paragraph at lines 47--47
+Overfull \hbox (182.41714pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://guardianproject.info/apps/orbot/| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -10081,34 +9958,33 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no x in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ...nyx.torproject.org/changelog/legacy.html}}
-                                                   Została ona przeznaczona...
+l.48 ...nyx.torproject.org/changelog/legacy.html}}
+                                                  . Została ona przeznaczon...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ...nyx.torproject.org/changelog/legacy.html}}
-                                                   Została ona przeznaczona...
+l.48 ...nyx.torproject.org/changelog/legacy.html}}
+                                                  . Została ona przeznaczon...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 <argument> \url 
                 {https://nyx.torproject.org/changelog/legacy.html}
-l.47 ...nyx.torproject.org/changelog/legacy.html}}
-                                                   Została ona przeznaczona...
+l.48 ...nyx.torproject.org/changelog/legacy.html}}
+                                                  . Została ona przeznaczon...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10116,10 +9992,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (215.97273pt too wide) in paragraph at lines 47--47
+Overfull \hbox (215.97273pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://nyx.torproject.org/changelog/legacy.html| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no Z in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -10413,23 +10290,22 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ...//www.torproject.org/projects/nyx.html.en}
-                                                   Poza powyżej wymienionym...
+l.48 ...//www.torproject.org/projects/nyx.html.en}
+                                                  . Poza powyżej wymieniony...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ...//www.torproject.org/projects/nyx.html.en}
-                                                   Poza powyżej wymienionym...
+l.48 ...//www.torproject.org/projects/nyx.html.en}
+                                                  . Poza powyżej wymieniony...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10437,10 +10313,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (216.61157pt too wide) in paragraph at lines 47--47
+Overfull \hbox (216.61157pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://www.torproject.org/projects/nyx.html.en| 
  []
 
+Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no z in font nullfont!
@@ -10563,23 +10440,22 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no . in font nullfont!
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.47 ....torproject.org/projects/projects.html.en}
-                                                  
+l.48 ....torproject.org/projects/projects.html.en}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:48: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.47 ....torproject.org/projects/projects.html.en}
-                                                  
+l.48 ....torproject.org/projects/projects.html.en}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10587,58 +10463,128 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (235.58379pt too wide) in paragraph at lines 47--47
+Overfull \hbox (235.58379pt too wide) in paragraph at lines 48--48
 [][]\OT1/cmr/m/n/10 https://www.torproject.org/projects/projects.html.en| 
  []
 
+Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 []
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 48--49
 [] 
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+./historia.tex:49: LaTeX Error: The font size command \normalsize is not define
+d:
+               there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 D
+l.49 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+./historia.tex:49: Undefined control sequence.
+<write> \newlabel{rys:dzienny}{{}{\thepage 
+                                           }}
+l.49 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{rys:dzienny}{{}{}}
+./historia.tex:49: Undefined control sequence.
+<write> \newlabel{hist}{{1}{\thepage 
+                                     }}
+l.49 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{hist}{{1}{}}
+./historia.tex:49: Undefined control sequence.
+<write> \newlabel{onionrouter}{{3}{\thepage 
+                                            }}
+l.49 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{onionrouter}{{3}{}}
+./historia.tex:49: Undefined control sequence.
+<write> \newlabel{hri}{{5}{\thepage 
+                                    }}
+l.49 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{hri}{{5}{}}
+]
+
+./historia.tex:50: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 D
       zięki swoim osiągnięciom w~walce o~zachowanie anonimowości, prywat...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10957,10 +10903,10 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.49 ...news/2010-free-software-awards-announced}}
+l.50 ...news/2010-free-software-awards-announced}}
                                                   . Z~kolei we Wrześniu 201...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10968,10 +10914,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.49 ...news/2010-free-software-awards-announced}}
+l.50 ...news/2010-free-software-awards-announced}}
                                                   . Z~kolei we Wrześniu 201...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10979,10 +10925,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 <argument> \url 
                 {https://www.fsf.org/news/2010-free-software-awards-announced}
-l.49 ...news/2010-free-software-awards-announced}}
+l.50 ...news/2010-free-software-awards-announced}}
                                                   . Z~kolei we Wrześniu 201...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10991,27 +10937,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (141.02808pt too wide) in paragraph at lines 49--49
+Overfull \hbox (141.02808pt too wide) in paragraph at lines 50--50
 [][]\OT1/cmr/m/n/10 https://www.fsf.org/news/2010-
  []
 
 
-Overfull \hbox (19.19446pt too wide) in paragraph at lines 49--49
+Overfull \hbox (19.19446pt too wide) in paragraph at lines 50--50
 \OT1/cmr/m/n/10 free-
  []
 
 
-Overfull \hbox (39.25005pt too wide) in paragraph at lines 49--49
+Overfull \hbox (39.25005pt too wide) in paragraph at lines 50--50
 \OT1/cmr/m/n/10 software-
  []
 
 
-Overfull \hbox (33.4167pt too wide) in paragraph at lines 49--49
+Overfull \hbox (33.4167pt too wide) in paragraph at lines 50--50
 \OT1/cmr/m/n/10 awards-
  []
 
 
-Overfull \hbox (46.66678pt too wide) in paragraph at lines 49--49
+Overfull \hbox (46.66678pt too wide) in paragraph at lines 50--50
 \OT1/cmr/m/n/10 announced| 
  []
 
@@ -11213,10 +11159,10 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.49 ...{https://www.eff.org/awards/pioneer/2012}}
+l.50 ...{https://www.eff.org/awards/pioneer/2012}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11224,10 +11170,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.49 ...{https://www.eff.org/awards/pioneer/2012}}
+l.50 ...{https://www.eff.org/awards/pioneer/2012}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11235,10 +11181,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./historia.tex:50: Undefined control sequence.
 <argument> \url 
                 {https://www.eff.org/awards/pioneer/2012}
-l.49 ...{https://www.eff.org/awards/pioneer/2012}}
+l.50 ...{https://www.eff.org/awards/pioneer/2012}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11247,24 +11193,86 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (183.52817pt too wide) in paragraph at lines 49--49
+Overfull \hbox (183.52817pt too wide) in paragraph at lines 50--50
 [][]\OT1/cmr/m/n/10 https://www.eff.org/awards/pioneer/2012| 
  []
 
 Missing character: There is no . in font nullfont!
 )
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> ... konkurencja.tex main.tex wstep.tex zasada_
+                                                  dzialania.tex
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Emergency stop.
-<*> historia.tex
-                
+<*> ...tex main.tex wstep.tex zasada_dzialania.tex
+                                                  
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 494918
- 269 string characters out of 6180101
- 50670 words of memory out of 5000000
- 3403 multiletter control sequences out of 15000+600000
+ 21 strings out of 494918
+ 287 string characters out of 6180101
+ 51670 words of memory out of 5000000
+ 3405 multiletter control sequences out of 15000+600000
  4258 words of font info for 16 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 24i,5n,18p,2319b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,5n,18p,2391b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

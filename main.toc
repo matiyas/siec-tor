@@ -6,8 +6,12 @@
 \contentsline {section}{\numberline {2}Zasada dzia\IeC {\l }ania}{9}
 \contentsline {subsection}{\numberline {2.1}Tor: The Second-Generation Onion Router\footnote {https://svn.torproject.org/svn/projects/design-paper/tor-design.html}}{9}
 \contentsline {subsection}{\numberline {2.2}Kom\IeC {\'o}rki}{11}
-\contentsline {subsection}{\numberline {2.3}Ukryte serwisy}{12}
-\contentsline {subsection}{\numberline {2.4}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{12}
-\contentsline {subsection}{\numberline {2.5}Utworzenie ukrytego serwisu w systemie Linux}{12}
-\contentsline {subsection}{\numberline {2.6}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{12}
-\contentsline {subsection}{\numberline {2.7}Trasowanie Cebulowe}{12}
+\contentsline {subsection}{\numberline {2.3}Obwody i\nobreakspace {}strumienie}{12}
+\contentsline {subsection}{\numberline {2.4}Sprawdzanie integralno\IeC {\'s}ci w\nobreakspace {}struminiach}{14}
+\contentsline {subsection}{\numberline {2.5}Ukryte serwisy}{14}
+\contentsline {subsection}{\numberline {2.6}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{15}
+\contentsline {subsection}{\numberline {2.7}Utworzenie ukrytego serwisu w systemie Linux}{15}
+\contentsline {subsection}{\numberline {2.8}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{15}
+\contentsline {subsection}{\numberline {2.9}Trasowanie Cebulowe}{15}
+\contentsline {subsection}{\numberline {2.10}Ala ma kota}{15}
+\contentsline {subsection}{\numberline {2.11}Ala ma dwa koty}{15}
