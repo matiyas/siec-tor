@@ -152,13 +152,24 @@
 
     \end{enumerate}
     \item Protokół realizuje jednostronne uwierzytelnianie (OR nie wie kto otwiera obwód, Alice nie używa klucza publiczego i~pozostaje anonimowa)
-
    \end{description}
 
   \end{itemize}
   
   \subsection{Sprawdzanie integralności w~struminiach}
+  \begin{description}
+    \item W~poprzedniej wersji Trasowania Cebulowego nie była sprawdzana integralność plików, co sprawiało, że osoba atakująca mogła zmienić typ komórki na \textit{destroy}, zmienić adres przeznaczenia na swój serwer, lub zmienić komende FTP na np. rm *
+    \item Integralność jest sprawdzana tylko na krawędziach strumienia (krawędzią strumienia może być każdy skok w~obwodzie)
+    \item Kiedy Alice negocjuje klucz z~każdym nowym skokiem, każdy z~nich inicjalizuje skrót SHA-1 z~pochodną tego klucza (ang. SHA-1 digest with a~derivative of that key), rozpoczynając od losowych wartości, które są znane tylko przez dwóch z~nich
+    \item Każdy z~nich dodaje przyrostowo do skrótu SHA-1 zawartości wszystkich komórek typu \textit{relay}, które stworzyli i~dołączają z każdą komórką \textit{relay} pierwsze 4 bajty obecnego skrótu (w~celu zmniejszenia narzutu)
+    \item Poza tym każdy zachowuje skrót SHA-1 otrzymanych danych, aby zweryfikować, czy otrzymane hashe są prawidłowe 
+    \item Jeśli OP lub OR otrzyma zły hash, to obwód zostaje zniszczony (ang. tear down)
+  \end{description}
 
+\subsection{Ograniczenia oceny?? i uczciwości}
+\begin{description}
+  \item 
+\end{description}
    
 \begin{description}
  \item Ogólna zasada działania + odnośniki do obrazków
@@ -201,7 +212,3 @@
 \end{description}
 
 \subsection{Trasowanie Cebulowe}
-
-\subsection{Ala ma kota}
-
-\subsection{Ala ma dwa koty}
