@@ -166,9 +166,41 @@
     \item Jeśli OP lub OR otrzyma zły hash, to obwód zostaje zniszczony (ang. tear down)
   \end{description}
 
-\subsection{Ograniczenia oceny?? i uczciwości}
+\subsection{Ograniczenia szybkości i uczciwości}
 \begin{description}
-  \item 
+  \item Ochotnicy chętniej uruchamiają serwery, których możliwe jest ograniczenie przepustowości
+  \item Serwery Tor używają algorytmu Token Bucket w~celu wymuszenia długoterminowych średnich szybkości przychodzących bajtów, podczas gdy stale zezwalają na krótkoterminowe serie przekraczające dozwoloną przepustowość
+  \item W~protokole Tor liczba wychodzących bajtów jest mniej więcej taka sama jak liczba przychodzących bajtów, a~więc w~praktyce ogranicza się tylko liczbę przychodzących bajtów
+\end{description}
+
+\subsection{Kontrola przeciążenia}
+\begin{description}
+  \item Jeśli wystarczająca liczba użytkowników wybierze te same połączenie OR <--> OR dla swoich obwodów, wtedy to połączenie zostanie przeciążone
+  \item Rozwiązanie
+  \begin{itemize}
+    \item Throttling na poziomie obwodu
+    \begin{itemize}
+      \item Każdy OR śledzi dwa okna
+      \begin{itemize}
+        \item \textit{packaging window} śledzi jak dużo komórek przekazywania danych OR może spakować (od przychodzących strumieni TCP) do przesłania z~powrotem do OP
+        \item \textit{delivery window} śledzi jak dużo jest chętnych komórek przekazywania danych (ang. relay data cells) do dostarczenia do strumieni TCP na zewnątrz sieci
+      \end{itemize}
+      \begin{enumerate}
+        \item Zainicjalizowanie obu okien (np. do 1000 komórek danych)
+        \item Kiedy komórka danych jest zapakowana lub dostarczona, zostaje zmniejszona wartość odpowiedniego okna
+        \item Kiedy OR odbierze wystarczająco dużo komórek danych (obecnie 100), wysyła komórkę \textit{relay sendme} w~kierunku OP, z~ustawionym streamID na zero.
+        \item Kiedy OR odbierze komórkę \textit{relay sendme} z~ustawionym streamID na zero, zwiększa wartość swojego okna pakowania, każda z~tych komórek zwiększa wartość odpowiedniego okna o 100.
+        \item Jeśli okno pakowania osiągnie warość 0, OR przestaje odczytywać z~połączeń TCP dla wszystkich strumieni odpowiedniego obwodu i~nie wysyła już żadnych komórek przekazywania danych aż do momentu odebrania komórki \textit{relay sendme}
+        \item OP zachowuje się idenycznie, jednak musi śledzić okna dla każdego OR w~obwodzie. Jeśli okno pakowania osiągnie 0, to odczytywanie ze strumieni przeznaczonych dla tego OR zostaje zatrzymane
+      \end{enumerate}
+    \end{itemize}
+    \item Throttling na poziomie strumienia
+    \begin{itemize}
+      \item Każdy strumień zaczyna się oknem pakowania (obecnie 500 komórek), i~zwiększ jego wartość o~wartość 50, aż do otrzymania komórki \textit{relay sendme} 
+      \item  Kontrola zatorów na poziomie strumienia sprawdza także, czy dane zostały pomyślnie umieszczone w~strumieniu TCP
+      \item Komórka \textit{realy sendme} jest wysyłana tylko jeśli liczba bajtów oczekujących na \textit{spłukanie} (do strumienia) jest poniżej pewnego progu (obecnie wartość 10 komórek)
+    \end{itemize}
+  \end{itemize}
 \end{description}
    
 \begin{description}

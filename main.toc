@@ -8,9 +8,10 @@
 \contentsline {subsection}{\numberline {2.2}Kom\IeC {\'o}rki}{11}
 \contentsline {subsection}{\numberline {2.3}Obwody i\nobreakspace {}strumienie}{12}
 \contentsline {subsection}{\numberline {2.4}Sprawdzanie integralno\IeC {\'s}ci w\nobreakspace {}struminiach}{14}
-\contentsline {subsection}{\numberline {2.5}Ograniczenia oceny?? i uczciwo\IeC {\'s}ci}{15}
-\contentsline {subsection}{\numberline {2.6}Ukryte serwisy}{15}
-\contentsline {subsection}{\numberline {2.7}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{15}
-\contentsline {subsection}{\numberline {2.8}Utworzenie ukrytego serwisu w systemie Linux}{15}
-\contentsline {subsection}{\numberline {2.9}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{16}
-\contentsline {subsection}{\numberline {2.10}Trasowanie Cebulowe}{16}
+\contentsline {subsection}{\numberline {2.5}Ograniczenia szybko\IeC {\'s}ci i uczciwo\IeC {\'s}ci}{15}
+\contentsline {subsection}{\numberline {2.6}Kontrola przeci\IeC {\k a}\IeC {\.z}enia}{15}
+\contentsline {subsection}{\numberline {2.7}Ukryte serwisy}{17}
+\contentsline {subsection}{\numberline {2.8}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{17}
+\contentsline {subsection}{\numberline {2.9}Utworzenie ukrytego serwisu w systemie Linux}{17}
+\contentsline {subsection}{\numberline {2.10}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{17}
+\contentsline {subsection}{\numberline {2.11}Trasowanie Cebulowe}{17}
