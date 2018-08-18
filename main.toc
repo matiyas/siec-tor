@@ -3,15 +3,19 @@
 \contentsline {subsection}{\numberline {1.2}Generacja 1}{4}
 \contentsline {subsection}{\numberline {1.3}Generacja 2}{5}
 \contentsline {subsection}{\numberline {1.4}Projekt Tor}{7}
-\contentsline {section}{\numberline {2}Zasada dzia\IeC {\l }ania}{9}
-\contentsline {subsection}{\numberline {2.1}Tor: The Second-Generation Onion Router\footnote {https://svn.torproject.org/svn/projects/design-paper/tor-design.html}}{9}
-\contentsline {subsection}{\numberline {2.2}Kom\IeC {\'o}rki}{11}
-\contentsline {subsection}{\numberline {2.3}Obwody i\nobreakspace {}strumienie}{12}
-\contentsline {subsection}{\numberline {2.4}Sprawdzanie integralno\IeC {\'s}ci w\nobreakspace {}struminiach}{14}
-\contentsline {subsection}{\numberline {2.5}Ograniczenia szybko\IeC {\'s}ci i uczciwo\IeC {\'s}ci}{15}
-\contentsline {subsection}{\numberline {2.6}Kontrola przeci\IeC {\k a}\IeC {\.z}enia}{15}
-\contentsline {subsection}{\numberline {2.7}Ukryte serwisy}{17}
-\contentsline {subsection}{\numberline {2.8}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{17}
-\contentsline {subsection}{\numberline {2.9}Utworzenie ukrytego serwisu w systemie Linux}{17}
-\contentsline {subsection}{\numberline {2.10}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{17}
-\contentsline {subsection}{\numberline {2.11}Trasowanie Cebulowe}{17}
+\contentsline {section}{\numberline {2}Trasowanie Cebulowe}{9}
+\contentsline {section}{\numberline {3}Zasada dzia\IeC {\l }ania}{12}
+\contentsline {subsection}{\numberline {3.1}Tor: The Second-Generation Onion Router\footnote {https://svn.torproject.org/svn/projects/design-paper/tor-design.html}}{12}
+\contentsline {subsection}{\numberline {3.2}Kom\IeC {\'o}rki}{14}
+\contentsline {subsection}{\numberline {3.3}Obwody i\nobreakspace {}strumienie}{15}
+\contentsline {subsection}{\numberline {3.4}Sprawdzanie integralno\IeC {\'s}ci w\nobreakspace {}struminiach}{17}
+\contentsline {subsection}{\numberline {3.5}Ograniczenia szybko\IeC {\'s}ci i uczciwo\IeC {\'s}ci}{18}
+\contentsline {subsection}{\numberline {3.6}Kontrola przeci\IeC {\k a}\IeC {\.z}enia}{18}
+\contentsline {subsection}{\numberline {3.7}Ukryte serwisy}{20}
+\contentsline {subsection}{\numberline {3.8}U\IeC {\.z}ycie sieci Tor na systemie Linux i/lub Windows}{20}
+\contentsline {subsection}{\numberline {3.9}Utworzenie ukrytego serwisu w systemie Linux}{20}
+\contentsline {subsection}{\numberline {3.10}Przy\IeC {\l }\IeC {\k a}czenie si\IeC {\k e} do serwer\IeC {\'o}w po\IeC {\'s}rednicz\IeC {\k a}cych}{20}
+\contentsline {subsection}{\numberline {3.11}Trasowanie Cebulowe}{20}
+\contentsline {section}{\numberline {4}Hiding Routing Information}{21}
+\contentsline {subsection}{\numberline {4.1}Wprowadzenie}{21}
+\contentsline {subsection}{\numberline {4.2}Cebule}{21}
