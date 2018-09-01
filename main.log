@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  31 AUG 2018 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  1 SEP 2018 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,52 +680,151 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+ [2])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2]
+ [3]
 \openout2 = `historia.aux'.
 
  (./historia.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
- [3
 
-]
-[4] <./images/Daily.jpg, id=17, 971.63pt x 619.31375pt>
+[4
+
+] [5] <./images/Daily.jpg, id=20, 971.63pt x 619.31375pt>
 File: ./images/Daily.jpg Graphic file (type jpg)
 
 <use ./images/Daily.jpg>
 Package pdftex.def Info: ./images/Daily.jpg used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 272.03584pt.
- [5] [6 <./images/Daily.jpg>] [7]) [8]
+ [6] [7 <./images/Daily.jpg>] [8]) [9]
 \openout2 = `trasowanie_cebulowe.aux'.
 
 
-No file trasowanie_cebulowe.tex.
-(./main.aux (./historia.aux) (./trasowanie_cebulowe.aux)) ) 
+(./trasowanie_cebulowe.tex
+<./images/onion_diagram.png, id=34, 803.0pt x 527.9725pt>
+File: ./images/onion_diagram.png Graphic file (type png)
+
+<use ./images/onion_diagram.png>
+Package pdftex.def Info: ./images/onion_diagram.png used on input line 7.
+(pdftex.def)             Requested size: 426.79135pt x 280.62166pt.
+ [10
+
+
+] [11 <./images/onion_diagram.png>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 24.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+
+<./images/cell.png, id=44, 381.22424pt x 109.30838pt>
+File: ./images/cell.png Graphic file (type png)
+ <use ./images/cell.png>
+Package pdftex.def Info: ./images/cell.png used on input line 39.
+(pdftex.def)             Requested size: 426.79135pt x 122.3745pt.
+
+[12 <./images/cell.png (PNG copy)>]) [13]
+\openout2 = `zasada_dzialania.aux'.
+
+ (./zasada_dzialania.tex [14
+
+
+])
+[15]
+\openout2 = `zasada_dzialania_proto.aux'.
+
+ (./zasada_dzialania_proto.tex
+Overfull \hbox (0.12283pt too wide) in paragraph at lines 9--10
+[]\T1/ptm/m/n/12 Zapewnia kom-pro-mis po-mi¦-dzy za-cho-wa-niem ano-ni-mo-wo-±c
+i, u»y-tecz-no-±ci¡, oraz
+ []
+
+[16
+
+
+] [17]
+File: ./images/cell.png Graphic file (type png)
+ <use ./images/cell.png>
+Package pdftex.def Info: ./images/cell.png used on input line 65.
+(pdftex.def)             Requested size: 426.79135pt x 122.3745pt.
+ [18]
+Overfull \hbox (1.49358pt too wide) in paragraph at lines 106--107
+\T1/ptm/m/n/12 szy-fro-wy-wa-ne ra-zem w trak-cie prze-ka-zy-wa-nia w ob-wo-dzi
+e, przy u»y-
+ []
+
+<interaction.png, id=68, 675.7245pt x 353.21962pt>
+File: interaction.png Graphic file (type png)
+ <use interaction.png>
+Package pdftex.def Info: interaction.png used on input line 125.
+(pdftex.def)             Requested size: 426.79135pt x 223.09544pt.
+
+[19] [20 <./interaction.png (PNG copy)>] [21]
+Overfull \hbox (16.02505pt too wide) in paragraph at lines 191--192
+[]\T1/ptm/m/n/12 Kiedy ko-mór-ka da-nych jest za-pa-ko-wa-na lub do-star-czo-na
+, zo-sta-je zmniej-
+ []
+
+[22] [23]) [24]
+\openout2 = `hiding_routing_information.aux'.
+
+ (./hiding_routing_information.tex
+<./images/onion.png, id=89, 648.4225pt x 227.85126pt>
+File: ./images/onion.png Graphic file (type png)
+ <use ./images/onion.png>
+Package pdftex.def Info: ./images/onion.png used on input line 13.
+(pdftex.def)             Requested size: 426.79135pt x 149.97203pt.
+
+[25
+
+
+ <./images/onion.png>]
+<./images/wirtualny_obwod.png, id=96, 552.0625pt x 495.8525pt>
+File: ./images/wirtualny_obwod.png Graphic file (type png)
+
+<use ./images/wirtualny_obwod.png>
+Package pdftex.def Info: ./images/wirtualny_obwod.png used on input line 38.
+(pdftex.def)             Requested size: 426.79135pt x 383.35109pt.
+ [26] [27 <./images/wirtualny_obwod.png>]
+<./images/reply_onion.png, id=104, 764.8575pt x 430.60875pt>
+File: ./images/reply_onion.png Graphic file (type png)
+
+<use ./images/reply_onion.png>
+Package pdftex.def Info: ./images/reply_onion.png used on input line 59.
+(pdftex.def)             Requested size: 426.79135pt x 240.2785pt.
+ [28] [29 <./images/reply_onion.png>] [30]
+[31]) [32] (./main.aux (./historia.aux) (./trasowanie_cebulowe.aux)
+(./zasada_dzialania.aux) (./zasada_dzialania_proto.aux)
+(./hiding_routing_information.aux)) ) 
 Here is how much of TeX's memory you used:
- 3147 strings out of 494918
- 41596 string characters out of 6180101
- 106467 words of memory out of 5000000
- 6333 multiletter control sequences out of 15000+600000
- 55972 words of font info for 90 fonts, out of 8000000 for 9000
+ 3233 strings out of 494918
+ 43163 string characters out of 6180101
+ 106491 words of memory out of 5000000
+ 6377 multiletter control sequences out of 15000+600000
+ 69388 words of font info for 111 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 37i,8n,25p,2339b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb>
-Output written on main.pdf (8 pages, 225993 bytes).
+ 37i,8n,25p,2339b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (32 pages, 503137 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
