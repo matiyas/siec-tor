@@ -1,10 +1,20 @@
 \documentclass[12pt, a4paper, twoside]{article}
+
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
 \usepackage{url}
+\usepackage{graphicx}
+\usepackage[multiple]{footmisc}
+\usepackage{chngcntr}
+\usepackage{float}
+
+\renewcommand*{\thefootnote}{[\arabic{footnote}]}
+\counterwithin{figure}{section}
+\graphicspath{{./images/}}
+\raggedbottom
 \urlstyle{same}
 \linespread{1.5}
 \geometry{
@@ -14,13 +24,16 @@
     top=25mm, 
     bottom=25mm
 }
+
 \begin{document}
-\title{Sieć Tor}
-\author{Damian Matyjaszek}
-\date{}
-\maketitle
-\newpage
-\tableofcontents
-\include{wstep}
-\include{historia}
+  \title{Sieć Tor}
+  \author{Damian Matyjaszek}
+  \date{}
+  \maketitle
+  \newpage
+  \tableofcontents
+  \include{historia}
+  \include{trasowanie_cebulowe}
+%   \include{zasada_dzialania_proto}
+%   \include{hiding_routing_information}
 \end{document}       
