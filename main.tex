@@ -10,8 +10,10 @@
 \usepackage[multiple]{footmisc}
 \usepackage{chngcntr}
 \usepackage{float}
+\usepackage{cite}
+\usepackage{caption}
 
-\renewcommand*{\thefootnote}{[\arabic{footnote}]}
+\captionsetup{format =plain}
 \counterwithin{figure}{section}
 \graphicspath{{./images/}}
 \raggedbottom
@@ -34,4 +36,6 @@
   \tableofcontents
   \include{historia}
   \include{trasowanie_cebulowe}
+  \include{ukryte_serwisy}
+  \include{bibliografia}
 \end{document}       

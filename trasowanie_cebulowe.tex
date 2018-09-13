@@ -8,11 +8,12 @@ Zbyt długo istniejący obwód może doprowadzić do zebrania przez atakującego
 Dzięki takiemu systemowi przesyłania wiadomości niemożliwe jest ustalenie całej trasy przesyłanego pakietu. Każdy z~serwerów pośredniczących zna tylko dwóch swoich sąsiadów. Pierwszy z~nich zna nadawcę, lecz nie wie jaka jest treść przesyłanej wiadomośći, a~ostatni zna odbiorcę, ale nie zna nadawcy wiadomości\footnote{https://www.torproject.org/about/overview.html.en}.
 
 Rysunek \ref{rys:onion_diagram} przedstawia wygląd wiadomości, która zostaje przesłana przez obwód składający się z~trzech węzłów. Kolor niebieski oznacza warstwę szyfru utworzoną za pomocą symetrycznego klucza wspólnego dla nadawcy i~węzła znajdującym się na początku obwodu, a~czerwony warstwę szyfru utworzoną za pomocą klucza współdzielonego z~ostatnim serwerem pośredniczącym. Najgłębsza (szara) warstwa wiadomości oznacza niezaszyfrowane dane, które mają trafić do docelowego hosta.
+
 \begin{figure}
- \centering
- \includegraphics[width=\textwidth]{onion_diagram}
- \caption[Caption for LOF]{Diagram przedstawiający przykładową wiadomość przesyłaną przez obwód\footnotemark.}
- \label{rys:onion_diagram}
+  \centering
+  \includegraphics[width=\textwidth]{onion_diagram} 
+  \caption[Caption for LOF]{Diagram przedstawiający przykładową wiadomość przesyłaną przez obwód\footnotemark.}
+  \label{rys:onion_diagram}
 \end{figure}
 \footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/e/e1/Onion_diagram.svg}}
 

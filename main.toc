@@ -4,8 +4,8 @@
 \contentsline {paragraph}{}{3}
 \contentsline {subsection}{\numberline {1.2}Generacja 1}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {1.3}Generacja 2}{6}
-\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.3}Generacja 2}{5}
+\contentsline {paragraph}{}{5}
 \contentsline {subsection}{\numberline {1.4}Projekt Tor}{7}
 \contentsline {paragraph}{}{7}
 \contentsline {section}{\numberline {2}Trasowanie Cebulowe}{9}
@@ -20,3 +20,7 @@
 \contentsline {paragraph}{}{15}
 \contentsline {subsection}{\numberline {2.5}Serwery katalogowe}{15}
 \contentsline {paragraph}{}{15}
+\contentsline {section}{\numberline {3}Ukryte serwisy}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {3.1}Proces utworzenia serwisu cebulowego}{18}
+\contentsline {subsection}{\numberline {3.2}Proces po\IeC {\l }\IeC {\k a}czenia z\nobreakspace {}serwisem cebulowym}{19}
