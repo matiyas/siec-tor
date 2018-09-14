@@ -13,12 +13,16 @@
 \usepackage{cite}
 \usepackage{caption}
 
-\captionsetup{format =plain}
+\Urlmuskip=0mu  plus 7mu %tymczasowo
 \counterwithin{figure}{section}
 \graphicspath{{./images/}}
 \raggedbottom
 \urlstyle{same}
 \linespread{1.5}
+\captionsetup{
+  format=plain, 
+  justification=centering
+}
 \geometry{
     a4paper, 
     left=35mm, 
@@ -31,10 +35,13 @@
   \title{Sieć Tor}
   \author{Damian Matyjaszek}
   \date{}
-  \maketitle
+  \clearpage\maketitle
+  \thispagestyle{empty}
   \newpage
-  \tableofcontents
+  \clearpage\tableofcontents
+  \thispagestyle{empty}
   \include{historia}
+  \include{szyfrowanie}
   \include{trasowanie_cebulowe}
   \include{ukryte_serwisy}
   \include{bibliografia}

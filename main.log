@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  13 SEP 2018 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  14 SEP 2018 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,26 +537,27 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count93
 Package caption Info: float package is loaded.
 ) (./main.aux
-(./historia.aux) (./trasowanie_cebulowe.aux) (./ukryte_serwisy.aux)
-(./bibliografia.aux))
+(./historia.aux) (./szyfrowanie.aux) (./trasowanie_cebulowe.aux)
+(./ukryte_serwisy.aux) (./bibliografia.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 30.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -653,46 +654,47 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 34
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 38
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 34
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 38
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 34
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 38
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 34
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 38
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
  [1
+
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -706,114 +708,105 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2]
+ [2
+
+]
 \openout2 = `historia.aux'.
 
  (./historia.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
- [3
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
+ [1
 
 ]
-[4] <./images/Daily.jpg, id=17, 971.63pt x 619.31375pt>
+[2] <./images/Daily.jpg, id=17, 971.63pt x 619.31375pt>
 File: ./images/Daily.jpg Graphic file (type jpg)
 
 <use ./images/Daily.jpg>
-Package pdftex.def Info: ./images/Daily.jpg used on input line 32.
+Package pdftex.def Info: ./images/Daily.jpg used on input line 33.
 (pdftex.def)             Requested size: 426.79135pt x 272.03584pt.
+ [3] [4 <./images/Daily.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
- [5] [6 <./images/Daily.jpg>]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+ [5]) [6]
+\openout2 = `szyfrowanie.aux'.
 
-LaTeX Warning: Citation `nyx_changelog' on page 7 undefined on input line 50.
 
-) [7] [8]
-\openout2 = `trasowanie_cebulowe.aux'.
-
- (./trasowanie_cebulowe.tex [9
+(./szyfrowanie.tex) [7
 
 
 ]
-<./images/onion_diagram.png, id=34, 803.0pt x 527.9725pt>
+\openout2 = `trasowanie_cebulowe.aux'.
+
+ (./trasowanie_cebulowe.tex [8
+
+
+]
+<./images/onion_diagram.png, id=37, 803.0pt x 527.9725pt>
 File: ./images/onion_diagram.png Graphic file (type png)
 
 <use ./images/onion_diagram.png>
 Package pdftex.def Info: ./images/onion_diagram.png used on input line 14.
 (pdftex.def)             Requested size: 426.79135pt x 280.62166pt.
- [10 <./images/onion_diagram.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 31.
+ [9 <./images/onion_diagram.png>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 
-<./images/cell-struct.png, id=40, 381.22424pt x 109.30838pt>
+<./images/cell-struct.png, id=43, 381.22424pt x 109.30838pt>
 File: ./images/cell-struct.png Graphic file (type png)
 
 <use ./images/cell-struct.png>
-Package pdftex.def Info: ./images/cell-struct.png used on input line 46.
+Package pdftex.def Info: ./images/cell-struct.png used on input line 47.
 (pdftex.def)             Requested size: 426.79135pt x 122.3745pt.
- [11] [12 <./images/cell-struct.png (PNG copy)>]
-<interaction.png, id=49, 675.7245pt x 353.21962pt>
+ [10] [11 <./images/cell-struct.png (PNG copy)>]
+<interaction.png, id=53, 675.7245pt x 353.21962pt>
 File: interaction.png Graphic file (type png)
  <use interaction.png>
-Package pdftex.def Info: interaction.png used on input line 70.
+Package pdftex.def Info: interaction.png used on input line 72.
 (pdftex.def)             Requested size: 426.79135pt x 223.09544pt.
 
-[13] [14 <./interaction.png (PNG copy)>]) [15]
+[12] [13 <./interaction.png (PNG copy)>]) [14]
 \openout2 = `ukryte_serwisy.aux'.
 
- (./ukryte_serwisy.tex [16
+ (./ukryte_serwisy.tex [15
 
 
 ]
-[17] [18]) [19]
+[16] [17]) [18]
 \openout2 = `bibliografia.aux'.
 
- (./bibliografia.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\T1/ptm/m/n/12 https://web.archive.org/web/20081029125231/http://www.torproje
-ct.org:80/easy-
- []
+ (./bibliografia.tex [19
 
 
-Overfull \hbox (84.56702pt too wide) in paragraph at lines 15--16
-[]\T1/ptm/m/n/12 https://web.archive.org/web/20140701221249/https://www.torproj
-ect.org/projects/torbrowser.html.en 
- []
-
-) [20
-
-
-] (./main.aux (./historia.aux) (./trasowanie_cebulowe.aux)
-(./ukryte_serwisy.aux) (./bibliografia.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+]) [20] (./main.aux (./historia.aux)
+(./szyfrowanie.aux) (./trasowanie_cebulowe.aux) (./ukryte_serwisy.aux)
+(./bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 4364 strings out of 494918
- 63034 string characters out of 6180101
- 125047 words of memory out of 5000000
- 7518 multiletter control sequences out of 15000+600000
+ 4373 strings out of 494918
+ 63157 string characters out of 6180101
+ 125237 words of memory out of 5000000
+ 7520 multiletter control sequences out of 15000+600000
  63533 words of font info for 101 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 39i,8n,41p,1926b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on main.pdf (20 pages, 340476 bytes).
+ 38i,8n,41p,1926b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (22 pages, 341276 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
