@@ -27,5 +27,6 @@
 \contentsline {paragraph}{}{14}
 \contentsline {section}{\numberline {4}Ukryte serwisy}{15}
 \contentsline {paragraph}{}{15}
-\contentsline {subsection}{\numberline {4.1}Proces utworzenia serwisu cebulowego}{17}
-\contentsline {subsection}{\numberline {4.2}Proces po\IeC {\l }\IeC {\k a}czenia z\nobreakspace {}serwisem cebulowym}{18}
+\contentsline {subsection}{\numberline {4.1}Rozproszona tablica mieszaj\IeC {\k a}ca}{15}
+\contentsline {subsection}{\numberline {4.2}Proces tworzenia serwisu cebulowego}{16}
+\contentsline {subsection}{\numberline {4.3}Proces po\IeC {\l }\IeC {\k a}czenia z\nobreakspace {}serwisem cebulowym}{16}
