@@ -1,0 +1,30 @@
+\section{Ukryte serwisy}\paragraph{}
+W~2004 roku twórcy sieci Tor opracowali funkcjonalność zwaną serwisami cebulowymi lub też ukrytymi serwisami. Funkcjonalność ta pozwala nam na udostępnienie w~sieci Tor naszej usługi bez ujawniania publicznego adresu IP zarówno maszyny na której się ona znajduje jak i~adresu osoby łączącej się z~daną usługą\cite{tor_design}.
+
+Połączenie z~takim serwisem znacznie różni się od tego co możemy zaobserwować w~przypadku połączenia ze zwykłą usługą w~internecie. Cała komunikacja przebiega przy użyciu sieci Tor, klient zamiast łączyć się bezpośrednio z~serwisem, komunikuje się z~nim za pomocą jednego z~węzłów, pełniącego rolę tzw. punktu spotkania, a~nazwa domeny za pomocą której się łączy nie odnosi się do lokalizacji danego serwisu, tylko do specjalnego deskryptora zawierającego listę węzłów pełniących rolę punktów wejściowych dla danego serwisu oraz jego klucza publicznego\cite{torproject_services}. Dokładne wyjaśnienie czym są punkt spotkania oraz punkty wejściowe zostało omówione w~podrozdziałach \ref{tworzenie_serwisu} oraz \ref{polaczenie_z_serwisem}.
+
+Dostęp do takiej usługi jest możliwy tylko przy wykorzystaniu sieci Tor oraz specjalnego adresu w~postaci \textit{nazwa.onion}, gdzie \textit{nazwa} jest nazwą serwisu powstałą na podstawie jego klucza publicznego. Taka nazwa może składać się z~16 lub 56 znaków (długość nazwy jest zależna od wersji protokołu, której zdecydujemy się użyć)\cite{hs_names1}. Jednym z~powodów dla którego nazwa serwisu jest tworzona na podstawie klucza publicznego, zamiast użycia mnemonicznej nazwy wymyślonej przez użytkownika jest możliwość sprawdzenia, czy otrzymany przez klienta, chcącego połączyć się z~danym serwisem, klucz publiczny należy do serwisu o~podanym adresie\cite{hs_names2}. Taki adres nie jest przechowywany w~żadnym centralnym punkcie, a~uzyskanie go jest możliwe tylko z~niezależnych źródeł na których został umieszczony przez właściciela serwisu lub inne osoby mające go w~posiadaniu\cite{torproject_services}.
+
+\subsection{Rozproszona tablica mieszająca}
+Rozproszona tablica mieszająca  (ang. Distributed Hash Table, DHT) jest zdecentralizowanym, rozproszonym systemem wyszukiwania, złożonym z~węzłów (chyba) katalogowych, który pozwala, w~przypadku sieci Tor, na wyszukanie deskryptora należącego do serwisu cebulowego o~podanym adresie. Informacje w~DHT są przechowywane na zasadzie pary (klucz, wartość). W~tym przypadku kluczem jest nazwa ukrytego serwisu, a~wartością jego deskryptor. Każdy z~węzłów w~DHT przechowuje deskryptory o~adresie należącym do grupy za którą jest on odpowiedzialny.  Podczas tworzenia serwisu cebulowego, deskryptor wysyłany jest do sieci, a~następnie przesyłany jest przez kolejne węzły do momentu aż trafi do węzła odpowiedzialnego za przechowywanie deskryptora o~podanym adresie, który to zapisuje w~swojej tablicy\cite{mimuw_dht, torproject_services}.
+
+\subsection{Proces tworzenia serwisu cebulowego\label{tworzenie_serwisu}}
+\begin{enumerate}
+ \item Na początku serwis cebulowy wybiera losowo kilka węzłów w~sieci, aby pełniły rolę tzw. punktów wprowadzających. Serwis tworzy obwód do każdego z~tych węzłów, a~następnie odpytuje każdego z~nich o~możliwość pełnienia funkcji punktu wprowadzającego, podając przy tym własny klucz publiczny. 
+ \item Po otrzymaniu odpowiedzi od wybranych węzłów, serwer cebulowy tworzy deskryptor, składający się z~klucza publicznego serwisu oraz informacji na temat wszystkich punktów wejściowych. Następnie taki deskryptor zostaje podpisany za pomocą klucza prywatnego serwisu.
+ \item W~kolejnym kroku serwer cebulowy wysyła wcześniej utworzony deskryptor do rozproszonej tablicy hashującej. 
+ \item Od tego momentu możliwe jest połączenie się z~wybranym serwerem cebulowym poprzez adres serwisu\cite{torproject_services}.
+\end{enumerate}
+
+\subsection{Proces połączenia z~serwisem cebulowym\label{polaczenie_z_serwisem}}
+\begin{enumerate}
+ \item W~celu połączenia się z~ukrytym serwisem, klient pobiera z~rozproszonej tablicy mieszającej \textit{deskryptor serwisu cebulowego}, tym samym otrzymując lokalizacje jego punktów wprowadzających oraz jego klucz publiczny.
+ \item Klient wybiera jeden z~węzłów sieci Tor, aby był on jego \textit{punktem spotkania} a~następnie wysyła do niego jednorazowy sekret (ciasteczko).
+ \item Następnie tworzy on \textit{wiadomość wprowadzającą}, zawierającą adres punktu spotkania oraz jednorazowy sekret.
+ \item W~kolejnym kroku klient wysyła do jednego z~punktów wejściowych wcześniej utworzoną wiadomość, aby ten przekazał ją do serwisu cebulowego (cała komunikacja przebiega przy użyciu wcześniej otworzonego obwodu pomiędzy punktem wprowadzającym, a ukrytym serwisem).
+ \item Serwer cebulowy odszyfrowuje otrzymaną wiadomość wprowadzającą z~której otrzymuje adres punktu spotkania oraz jednorazowy sekret.
+ \item Następnie serwer cebulowy tworzy obwód do punktu spotkania.
+ \item Serwer cebulowy wysyła do punktu spotkania wiadomość zawierającą otrzymany jednorazowy sekret.
+ \item Serwer cebulowy informuje klienta o~nawiązaniu połączenia.
+ \item Klient oraz serwer mogą się komunikować poprzez pośredniczący punkt spotkania. (połączenie pomiędzy klientem, a~punktem spotkania oraz między punktem spotkania i~serwisem cebulowym przebiega przez sieć Tor, zresztą jak cała opisana powyżej komunikacja)\cite{torproject_services}.
+\end{enumerate}
